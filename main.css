@@ -4,12 +4,15 @@ body{
 }
 
 .logo{
-  padding-top: 5%;
+  padding-top: 3%;
+  margin-bottom: 3%;
 }
 
 .form-header{
   margin-top: 0;
   color: #fff;
+  margin-bottom: 3.5%;
+  text-transform: uppercase;
 }
 
 .homepage {
@@ -21,17 +24,27 @@ body{
 
 .register-form {
   border: 1px solid #333;
-  background: rgba(69, 69, 69, 0.66);
-  padding: 5% 5%;
-  width: 33%
+  background: rgba(69, 69, 69, 0.45);
+  padding: 3% 4% 3.5% 4%;
+  width: 60%;
+  margin: 0 auto;
 }
 
+.register-form input[type='text'] {
+  width: 50%;
+  padding: 1% 3% 1% 0.5;
+}
 
 .register-form input[type='submit'] {
   background: #ff6700;
-  padding: 1% 2%
-  color#fff;
+  padding: 1% 2%;
+  color: #fff;
   border: 1px solid orange;
   text-transform: uppercase;
   font-weight: 600;
+}
+
+.register-form input[type='submit']:hover {
+  cursor: pointer;
+
 }
