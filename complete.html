@@ -9,11 +9,15 @@
    <section class="homepage">
      <img class="logo"src="https://metallica.com/on/demandware.static/Sites-Metallica-Site/-/default/dw716898e9/images/header/logo-homepage.svg">
      <form class="register-form" action="complete.html" method="get">
-       <h1 class="form-header"> Thank You for registering!</h1>
-
-      <input text="text" placeholder="Enter Email to register for ticket updates">
-      <input type="submit" value='register'>
+       <h1 class="form-header fade-in-up" id= "Thank You for registering!"</h1>
+         <p class="text fade in-up">
+           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+           </p>
      </form>
    </section>
+   <script>
+     let text= document.getElementryById('thanksHeader');
+     text.innerText = "Thank you for registering " +  windows.location.search.split('name=')[1];
+   </script>
   </body>
 </html>
